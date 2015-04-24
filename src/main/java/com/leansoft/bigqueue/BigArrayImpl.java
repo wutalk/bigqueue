@@ -57,7 +57,7 @@ public class BigArrayImpl implements IBigArray {
 	
 	// default size in bytes of a data page
 	public final static int DEFAULT_DATA_PAGE_SIZE = 128 * 1024 * 1024;
-	// minimum size in bytes of a data page
+	// minimum size in bytes of a data page, 1M DN string
 	public final static int MINIMUM_DATA_PAGE_SIZE = 32 * 1024 * 1024;
 	// seconds, time to live for index page cached in memory
 	final static int INDEX_PAGE_CACHE_TTL = 1000;
