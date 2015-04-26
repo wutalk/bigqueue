@@ -22,7 +22,7 @@ public class BigQueueLearn {
 		// 32M
 		int pageSize = 32 * 1024 * 1024;
 		try {
-			bigQueue = new BigQueueImpl("F:/devlab/bigqueue/samples", "dn_find", pageSize);
+			bigQueue = new BigQueueImpl("F:/devlab/bigqueue/testdata", "dn_find_queue", pageSize);
 
 			bigQueue.enqueue("item".getBytes());
 			
